@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="uil uil-bars"></i>
+        </label>
+        <div class="nav_logo">
+            <img src="logo.png" alt="" class="logo">
+            <p class="logo_text">MATRIX<br>VIT MULTIMEDIA CLUB</p>
+            <ul>
+                <li><a class="nav-li active home" href="#">Home</a></li>
+                <li><a class="nav-li about" href="#">About us</a></li>
+                <li><a class="nav-li team" href="#">Our team</a></li>
+                <li><a class="nav-li events" href="#">Events</a></li>
+                <li><a class="nav-li projects" href="#">Projects</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="mainarea">
+        <div class="about-us">
+            <h1>ABOUT US</h1>
+            <div class="fog">
+                <p class="fog-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore corrupti cum
+                    soluta minus veniam saepe nisi id necessitatibus cumque officiis quo sint aut excepturi dolor
+                    sapiente possimus, nobis tempora, explicabo non odio mollitia vero neque vitae? Doloribus soluta
+                    accusantium id omnis, fugiat possimus facilis maiores modi velit quos aliquam rem?</p>
+                <img src="logo.png">
+            </div>
+        </div>
+        <div class="our-vision">
+            <h1>OUR VISION</h1>
+            <div class="fog-vision">
+                <img src="our_vision.png" alt="">
+                <p class="fog-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore corrupti cum
+                    soluta minus veniam saepe nisi id necessitatibus cumque officiis quo sint aut excepturi dolor
+                    sapiente possimus, nobis tempora, explicabo non odio mollitia vero neque vitae? Doloribus soluta
+                    accusantium id omnis, fugiat possimus facilis maiores modi velit quos aliquam rem?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="main-content">
+            <div class="left-box">
+                <img src="logo.png" alt="" class="footer-logo">
+                <p class="footer-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, laudantium a
+                    sequi nulla nostrum est ex dignissimos libero tenetur illo maiores, suscipit earum, velit doloribus
+                    aspernatur repudiandae ad. Eos, sed!</p>
+                <br><br><br>
+                <p class="addr">VIT,Vellore<br>Tiruvalam Road<br>Katpadi,Vellore
+                    <br><br>
+                <p class="addr">Developed by Matrix|©All rights reserved</p>
+            </div>
+            <div class="right box">
+                <h2 class="right-heading">Get in touch</h2>
+                <div class="social">
+                    <ul class="social-list">
+                        <li class="insta social-elem"><i class="uil uil-instagram"></i></li>
+                        <li class="phone social-elem"><i class="uil uil-phone-alt"></i></li>
+                        <li class="gmail social-elem"><i class="uil uil-envelope"></i></li>
+                        <li class="linkedin social-elem"><i class="uil uil-linkedin-alt"></i></li>
+                        <li class="yt social-elem"><i class="uil uil-youtube"></i></li>
+                    </ul>
+                </div>
+
+                <div class="content">
+                    <form class="contact-form" action="index.html">
+                        <div class="email">
+                            <!-- <div class="text" >Email</div> -->
+                            <input class="mail" type="email" required>
+                            <label for="" class="mailarea">Email</label>
+                        </div>
+                        <div class="msg">
+                            <!-- <div class="text">Message</div> -->
+                            <textarea class="message" required></textarea>
+                            <label for="" class="msgarea">Message</label>
+                        </div>
+                        <div class="btn">
+                            <button type="submit" class="submit">Connect</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

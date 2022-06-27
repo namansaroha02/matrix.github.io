@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 100%;
+}
+
+.nav_logo {
+    display: flex;
+}
+
+.logo_text {
+    color: white;
+    margin: auto 0;
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 170px;
+    width: 170px;
+}
+
+nav ul {
+    float: right;
+    /* margin-right: 80px;
+    margin-top: -116px; */
+    margin: auto auto;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: none;
+    color: rgb(115, 5, 158);
+    transition: 0.5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* <========================MAIN AREA========================> */
+.about-us{
+    background-image:linear-gradient(rgba(33, 14, 40, 1),black) ;   
+    width: 98%;
+    height: 700px;
+    margin: 0px auto 50px;
+    /* border-radius: 0 0 70px 70px; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 50px;
+}
+
+.fog{
+    /* background-image: linear-gradient(#333333,#3B163F,#3B163F,#333333); */
+    /* opacity: 0.2; */
+    background-color: rgba(36, 27, 38, 1);
+    box-shadow: 0px 0px 60px rgba(70, 60, 73, 1) inset;
+    height: 450px;
+    width: 97%;
+    border-radius: 70px;
+    margin: auto auto 0 auto;
+    display: flex;
+}
+
+.fog-content{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin: auto auto;
+}
+
+
+.fog img{
+    height: 400px;
+    width: 400px;
+    margin: auto auto;
+}
+
+
+.our-vision{
+    background-image:linear-gradient(black,rgb(16, 6, 8)) ;   
+    width: 98%;
+    height: 700px;
+    margin: 0 auto;
+    /* border-radius: 0 0 70px 70px; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-vision h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 50px;
+}
+
+.fog-vision{
+    /* background-image: linear-gradient(#333333,#3B163F); */
+    /* opacity: 0.2; */
+    background-color: rgba(44, 41, 44, 1);
+    box-shadow: 0px 0px 60px rgba(70, 60, 73, 1) inset;
+    height: 450px;
+    width: 97%;
+    border-radius: 70px;
+    margin: auto auto 30px auto;
+    display: flex;
+}
+
+.fog-vision img{
+    height: 400px;
+    width: 400px;
+    margin: auto auto;
+}
+
+/* <========================FOOTER========================> */
+.footer-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-left: 80px;
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    height: 450px;
+    background: black;
+}
+
+.footer-content {
+    color: white;
+    /* display: inline-block; */
+    width: 700px;
+    height: 30px;
+
+}
+
+.left-box {
+    margin-right: 335px;
+}
+
+.email,
+.msg,
+.addr {
+    color: white;
+}
+
+.right-heading {
+    color: rgb(115, 5, 158);
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.social-elem {
+    margin: 13px;
+    font-size: 35px;
+}
+
+.social-elem i:hover{
+    transition: .3s;
+    color:rgb(115, 5, 158);
+}
+
+.linkedin{
+    margin-bottom: 20px;
+
+}
+
+.submit {
+    background: rgb(115, 5, 158);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    margin-left: 64px;
+}
+
+.email,.msg{
+    text-align: center;
+}
+
+.message{
+    width: 307px;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 2px solid rgb(115, 5, 158);
+    outline: none;
+    padding: 0 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.mail{
+    font-family: 'Poppins', sans-serif;
+    width: 307px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid rgb(115, 5, 158);
+    outline: none;
+    font-size: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.mailarea{
+    position: absolute;
+    top: 1867px;
+    left: 1126px;
+    /* font-size: 18px; */
+    transition: top .3s;
+    padding: 0 5px;
+}
+
+.msgarea{
+    position: absolute;
+    top: 1928px;
+    left: 1126px;
+    transition: top .3s;
+    /* font-size: 18px; */
+    padding: 0 5px;
+}
+
+.mail:hover~.mailarea{
+    transition: top .3s;
+    top: 1849px;
+    background-color:black;
+    padding: 0 5px;
+}
+
+.clicked-mail{
+    transition: top .3s;
+    top:1849px;
+    background-color:black;
+    padding: 0 5px;
+}
+
+.message:hover~.msgarea{
+    transition: top .3s;
+    top:1909px;
+    background-color:black;
+    padding: 0 5px;
+}
+
+.clicked-msg{
+    transition: top .3s;
+    top:1909px;
+    background-color:black;
+    padding: 0 5px;
+}
+
+
+/* <============================media queries============================> */
+/* @media(max-width:925px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(94, 94, 94);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a.active,
+    a:hover {
+        background: none;
+        color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+} */
