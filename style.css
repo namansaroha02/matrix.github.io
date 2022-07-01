@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.stop-scroll{
+    height: 100%;
+    overflow: hidden;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
@@ -13,7 +19,6 @@ body {
 
 nav {
     background-color: rgb(0, 0, 0);
-    height: 200px;
     width: 100%;
 }
 
@@ -23,8 +28,8 @@ nav {
 
 .logo_text {
     color: white;
-    margin: auto 0;
-    font-size: 40px;
+    margin: auto 0px auto 10px;
+    font-size: 28px;
 }
 
 img {
@@ -33,16 +38,16 @@ img {
 }
 
 .logo {
-    margin-top: 10px;
-    height: 170px;
-    width: 170px;
+    margin: 10px 0px 10px 15px;
+    height: 111px;
+    width: 111px;
 }
 
 nav ul {
     float: right;
     /* margin-right: 80px;
     margin-top: -116px; */
-    margin: auto auto;
+    margin: auto 30px auto auto;
 }
 
 nav ul li {
@@ -52,16 +57,17 @@ nav ul li {
 }
 
 nav ul li a {
+    margin: auto auto;
     color: white;
     font-size: 25px;
-    padding: 7px 13px;
+    padding: 7px 23px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
 a.active,
 a:hover {
-    background: none;
+    /* background: none; */
     color: rgb(115, 5, 158);
     transition: 0.5s;
 }
@@ -82,8 +88,8 @@ a:hover {
 
 
 /* <========================MAIN AREA========================> */
-.about-us{
-    background-image:linear-gradient(rgba(33, 14, 40, 1),black) ;   
+.about-us {
+    background-image: linear-gradient(rgba(33, 14, 40, 1), black);
     width: 98%;
     height: 700px;
     margin: 0px auto 50px;
@@ -94,14 +100,14 @@ a:hover {
     justify-content: center;
 }
 
-.about-us h1{
+.about-us h1 {
     color: white;
     text-align: center;
-    font-size: 90px;
-    padding-top: 50px;
+    font-size: 70px;
+    margin: auto 0px;
 }
 
-.fog{
+.fog {
     /* background-image: linear-gradient(#333333,#3B163F,#3B163F,#333333); */
     /* opacity: 0.2; */
     background-color: rgba(36, 27, 38, 1);
@@ -109,11 +115,11 @@ a:hover {
     height: 450px;
     width: 97%;
     border-radius: 70px;
-    margin: auto auto 0 auto;
+    margin: 0 auto 0 auto;
     display: flex;
 }
 
-.fog-content{
+.fog-content {
     font-size: 30px;
     color: white;
     width: 50%;
@@ -121,15 +127,16 @@ a:hover {
 }
 
 
-.fog img{
-    height: 400px;
-    width: 400px;
+.fog img {
+    height: 325px;
+    width: 325px;
     margin: auto auto;
+    background-color: white;
 }
 
 
-.our-vision{
-    background-image:linear-gradient(black,rgb(16, 6, 8)) ;   
+.our-vision {
+    background-image: linear-gradient(black, rgb(16, 6, 8));
     width: 98%;
     height: 700px;
     margin: 0 auto;
@@ -140,14 +147,14 @@ a:hover {
     justify-content: center;
 }
 
-.our-vision h1{
+.our-vision h1 {
     color: white;
     text-align: center;
-    font-size: 90px;
-    padding-top: 50px;
+    font-size: 70px;
+    margin: auto 0px;
 }
 
-.fog-vision{
+.fog-vision {
     /* background-image: linear-gradient(#333333,#3B163F); */
     /* opacity: 0.2; */
     background-color: rgba(44, 41, 44, 1);
@@ -155,11 +162,11 @@ a:hover {
     height: 450px;
     width: 97%;
     border-radius: 70px;
-    margin: auto auto 30px auto;
+    margin: 0px auto 30px auto;
     display: flex;
 }
 
-.fog-vision img{
+.fog-vision img {
     height: 400px;
     width: 400px;
     margin: auto auto;
@@ -189,14 +196,21 @@ a:hover {
 
 }
 
-.left-box {
-    margin-right: 335px;
+.right-box {
+    margin: 0px auto;
 }
 
 .email,
 .msg,
 .addr {
     color: white;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 1930px;
 }
 
 .right-heading {
@@ -221,12 +235,12 @@ a:hover {
     font-size: 35px;
 }
 
-.social-elem i:hover{
+.social-elem i:hover {
     transition: .3s;
-    color:rgb(115, 5, 158);
+    color: rgb(115, 5, 158);
 }
 
-.linkedin{
+.linkedin {
     margin-bottom: 20px;
 
 }
@@ -240,11 +254,17 @@ a:hover {
     margin-left: 64px;
 }
 
-.email,.msg{
+.email,
+.msg {
     text-align: center;
 }
 
-.message{
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.message {
     width: 307px;
     height: 90px;
     border-radius: 20px;
@@ -255,12 +275,12 @@ a:hover {
     padding: 0 15px;
     padding-top: 10px;
     font-size: 15px;
-    
+
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-.mail{
+.mail {
     font-family: 'Poppins', sans-serif;
     width: 307px;
     height: 40px;
@@ -275,55 +295,55 @@ a:hover {
     color: white;
 }
 
-.mailarea{
+.mailarea {
     position: absolute;
-    top: 1867px;
-    left: 1126px;
+    top: 1808px;
+    left: 1014px;
     /* font-size: 18px; */
     transition: top .3s;
     padding: 0 5px;
 }
 
-.msgarea{
+.msgarea {
     position: absolute;
-    top: 1928px;
-    left: 1126px;
+    top: 1865px;
+    left: 1014px;
     transition: top .3s;
     /* font-size: 18px; */
     padding: 0 5px;
 }
 
-.mail:hover~.mailarea{
+.mail:hover~.mailarea {
     transition: top .3s;
-    top: 1849px;
-    background-color:black;
+    top: 1788px;
+    background-color: black;
     padding: 0 5px;
 }
 
-.clicked-mail{
+.clicked-mail {
     transition: top .3s;
-    top:1849px;
-    background-color:black;
+    top: 1788px;
+    background-color: black;
     padding: 0 5px;
 }
 
-.message:hover~.msgarea{
+.message:hover~.msgarea {
     transition: top .3s;
-    top:1909px;
-    background-color:black;
+    top: 1848px;
+    background-color: black;
     padding: 0 5px;
 }
 
-.clicked-msg{
+.clicked-msg {
     transition: top .3s;
-    top:1909px;
-    background-color:black;
+    top: 1848px;
+    background-color: black;
     padding: 0 5px;
 }
 
 
-/* <============================media queries============================> */
-/* @media(max-width:925px) {
+/*<============================media queries============================> */
+@media(max-width:925px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -335,21 +355,24 @@ a:hover {
 }
 
 @media(max-width:858px) {
+
+    /* <========================navbar========================> */
+
     .checkbtn {
         display: block;
     }
 
-    ul {
+    .nav_logo ul {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(94, 94, 94);
+        background: rgba(36, 27, 38, 1);
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
-
+    
     nav ul li {
         display: block;
         margin: 50px 0;
@@ -363,10 +386,132 @@ a:hover {
     a.active,
     a:hover {
         background: none;
-        color: black;
+        color: rgb(115, 5, 158);
     }
-
-    #check:checked~ul {
+    
+    .logo {
+        margin: 10px 0px 10px 15px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .logo_text {
+        display: none;
+    }
+    
+    #check:checked~.nav_logo ul {
         left: 0;
     }
-} */
+
+    
+
+    /* <=========================Main Area=========================> */
+
+    .about-us h1 {
+        font-size: 30px;
+    }
+
+    .about-us {
+        height: 500px;
+    }
+
+
+    .fog img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .fog-content {
+        font-size: 15px;
+    }
+
+    .our-vision h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .our-vision {
+        height: 500px;
+    }
+
+    .fog-vision img {
+        height: 130px;
+        width: 130px;
+    }
+
+    /* <===========================Footer===========================> */
+    .footer {
+        padding: 10px 0px 0px 10px;
+        bottom: 0px;
+        width: 100%;
+        background: black;
+    }
+
+    .footer-logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .main-content {
+        display: block;
+    }
+
+    .addr {
+        margin-top: 35px;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+
+    .left-box {
+        margin: auto 0px 30px 0px;
+    }
+
+    .mailarea {
+        top: 1697px;
+        left: 110px;
+    }
+
+    .msgarea {
+        top: 1753px;
+        left: 110px;
+    }
+
+    .mail:hover~.mailarea {
+        top: 1679px;
+    }
+
+    .message:hover~.msgarea {
+        top: 1740px;
+    }
+
+    .clicked-mail {
+        top: 1679px;
+    }
+
+    .clicked-msg {
+        top: 1740px;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    .submit {
+        display: block;
+        margin: auto auto;
+    }
+
+    .social-list {
+        justify-content: space-between;
+        padding-bottom: 0px;
+    }
+
+    .copyright {
+        display: block;
+        position: inherit;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
