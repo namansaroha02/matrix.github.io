@@ -92,7 +92,7 @@ a:hover {
     background-image: linear-gradient(rgba(33, 14, 40, 1), black);
     width: 98%;
     height: 700px;
-    margin: 0px auto 50px;
+    margin: 0px auto 0px;
     /* border-radius: 0 0 70px 70px; */
     /* border: 2px solid white; */
     display: flex;
@@ -427,7 +427,7 @@ a:hover {
 
     .our-vision h1 {
         font-size: 30px;
-        margin-bottom: 10px;
+        margin: 10px 0px;
     }
 
     .our-vision {
