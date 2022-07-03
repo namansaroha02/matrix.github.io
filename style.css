@@ -369,6 +369,10 @@ a:hover {
         font-size: 15px;
         padding: 7px 4px;
     }
+    
+    nav ul {
+        margin: auto auto;
+    }
 
     /* <=========================about-us====================> */
 
