@@ -30,7 +30,7 @@ nav {
 .logo_text {
     color: white;
     margin: auto 0px auto 10px;
-    font-size: 28px;
+    font-size: 23px;
 }
 
 img {
@@ -40,8 +40,8 @@ img {
 
 .logo {
     margin: 10px 0px 10px 15px;
-    height: 111px;
-    width: 111px;
+    height: 80px;
+    width: 80px;
 }
 
 nav ul {
@@ -60,7 +60,7 @@ nav ul li {
 nav ul li a {
     margin: auto auto;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     padding: 7px 23px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -229,13 +229,17 @@ a:hover {
 .social-list {
     display: flex;
     align-items: center;
-    color: white;
     padding-bottom: 20px;
 }
 
 .social-elem {
     margin: 13px;
     font-size: 35px;
+    
+}
+
+.social-elem a{
+    color: white;
 }
 
 .social-elem i:hover {
@@ -346,6 +350,7 @@ a:hover {
 
 
 /*<============================media queries============================> */
+
 @media(max-width:1025px) {
     /* <==========================NAVBAR==========================> */
 
