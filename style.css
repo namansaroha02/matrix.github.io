@@ -90,7 +90,7 @@ a:hover {
 
 /* <========================MAIN AREA========================> */
 .about-us {
-    background-image: linear-gradient(rgba(33, 14, 40, 1), black);
+    background-image: linear-gradient(to bottom, #4c0f54, #35184e, #201a43, #121835, #0c1425, #121526);
     width: 98%;
     /* height: 700px; */
     margin: 0px auto 0px;
@@ -139,7 +139,7 @@ a:hover {
 
 
 .our-vision {
-    background-image: linear-gradient(black, rgb(16, 6, 8));
+    background-image: linear-gradient(to bottom,#171627, #1c1727, #351a30, #501b2d, #642320, #6b3509);
     width: 98%;
     margin: 0 auto;
     /* border-radius: 0 0 70px 70px; */
