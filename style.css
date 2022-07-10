@@ -140,6 +140,7 @@ a:hover {
 
 .our-vision {
     background-image: linear-gradient(to bottom,#171627, #1c1727, #351a30, #501b2d, #642320, #6b3509);
+
     width: 98%;
     margin: 0 auto;
     /* border-radius: 0 0 70px 70px; */
@@ -211,9 +212,8 @@ a:hover {
 
 .copyright {
     color: white;
-    display: flex;
-    position: absolute;
-    top: 1610px;
+    position: relative;
+    bottom: 40px;
 }
 
 .right-heading {
