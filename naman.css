@@ -282,7 +282,7 @@ a:hover {
     padding: 0 15px;
     padding-top: 10px;
     font-size: 15px;
-
+    resize:none;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
